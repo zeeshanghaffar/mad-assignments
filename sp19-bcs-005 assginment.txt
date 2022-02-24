@@ -1,0 +1,96 @@
+Problem 1:
+
+const arr=[2,3,6,1,7]
+let k=4
+let l=k-1;
+for(let i in arr){
+    if(arr[i]==l){
+        console.log("Kth valur from last is : "+arr[i])
+    }
+    
+}
+
+----------------------------------
+Problem 4:
+
+ const new_arr=[]
+  sqr=0;
+  cube=0;
+  const arrr=[1,2,3,4,5,6,7,8,9,10]
+  for(let i in arrr){
+      sqr=arrr[i]*arrr[i]
+      cube=arrr[i]*arrr[i]*arrr[i]
+      new_arr.push(sqr)
+      new_arr.push(cube)
+      sqr=0
+      cube=0
+  }
+  console.log(new_arr)
+
+------------------------------------
+Problem 6:
+
+var num= Math.floor(Math.random()*11);
+  let guss_num=prompt("Enter A Number between 0 to 10")
+  if(guss_num==num){
+    console.log("You WIN")
+  }
+  else{
+    console.log("Not Matched")
+  }
+
+------------------------------------
+Problem 8:
+
+let str="comsats"
+  let order= str.split('').sort().join('')
+  console.log(" String after sorting : "+order)
+
+------------------------------------
+Problem 7:
+
+ let arr=[2,3,4,5,6,10]
+  if(arr[0]==10 || arr[arr.length-1]==10){
+    console.log("Found")
+  }
+  else{
+    console.log("Not found")
+  }
+
+
+-----------------------------------
+
+Problem 2:
+
+  let a ="23617"
+  let sum=0
+  const aa=Array.from(a)
+  console.log(aa)
+  var res=aa.reduce(function(prev,curr){
+    return(Number(prev)||0)+(Number(curr)||0)
+  })
+  console.log(res)
+
+
+
+-----------------------------------
+
+
+Problem 3:
+
+  let sum=0
+  const arr=[2,3,6,1,7,4]
+  for( let i in arr){
+      if(arr[i]%2==0){
+          sum=arr[i]+sum;
+          
+      }
+  }
+  console.log(sum);
+
+
+-----------------------------------
+
+
+ 
+
